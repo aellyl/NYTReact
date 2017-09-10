@@ -1,0 +1,29 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "WebDev Bootcamp 19 homework - React based rendition of New York Time news search app. MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"cd client && npm start\"",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aellyl/NYTReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aellyl/NYTReact/issues"
+  },
+  "homepage": "https://github.com/aellyl/NYTReact#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
