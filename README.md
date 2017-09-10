@@ -2,7 +2,7 @@
 WebDev Bootcamp 19 homework - React based rendition of New York Time news search app. MERN stack
 
 
-Create-React-App user guide(./userGuide.md)
+[Create-React-App user guide](./client/userGuide.md)
 
 Functionality of Saving article is not complete.
 My next steps are
